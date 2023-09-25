@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		EF7B47822ABBFA2100D9C182 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7B47812ABBFA2100D9C182 /* AppDelegate.swift */; };
 		EF7B47842ABBFA2100D9C182 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7B47832ABBFA2100D9C182 /* SceneDelegate.swift */; };
-		EF7B47862ABBFA2100D9C182 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7B47852ABBFA2100D9C182 /* ViewController.swift */; };
 		EF7B47892ABBFA2100D9C182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7B47872ABBFA2100D9C182 /* Main.storyboard */; };
 		EF7B478B2ABBFA2200D9C182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7B478A2ABBFA2200D9C182 /* Assets.xcassets */; };
 		EF7B478E2ABBFA2200D9C182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7B478C2ABBFA2200D9C182 /* LaunchScreen.storyboard */; };
+		EF7B47BA2AC145E000D9C182 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7B47B92AC145E000D9C182 /* MainViewController.swift */; };
+		EF7B47BE2AC14D8800D9C182 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7B47BD2AC14D8800D9C182 /* FeedCell.swift */; };
+		EF7B47C02AC14F0700D9C182 /* FeedInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7B47BF2AC14F0700D9C182 /* FeedInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EF7B477E2ABBFA2100D9C182 /* MyscoreIs_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyscoreIs_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7B47812ABBFA2100D9C182 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF7B47832ABBFA2100D9C182 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EF7B47852ABBFA2100D9C182 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EF7B47882ABBFA2100D9C182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF7B478A2ABBFA2200D9C182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF7B478D2ABBFA2200D9C182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF7B478F2ABBFA2200D9C182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7B47B92AC145E000D9C182 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EF7B47BD2AC14D8800D9C182 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		EF7B47BF2AC14F0700D9C182 /* FeedInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				EF7B47812ABBFA2100D9C182 /* AppDelegate.swift */,
 				EF7B47832ABBFA2100D9C182 /* SceneDelegate.swift */,
-				EF7B47852ABBFA2100D9C182 /* ViewController.swift */,
+				EF7B47B92AC145E000D9C182 /* MainViewController.swift */,
+				EF7B47BD2AC14D8800D9C182 /* FeedCell.swift */,
+				EF7B47BF2AC14F0700D9C182 /* FeedInfo.swift */,
 				EF7B47872ABBFA2100D9C182 /* Main.storyboard */,
 				EF7B478A2ABBFA2200D9C182 /* Assets.xcassets */,
 				EF7B478C2ABBFA2200D9C182 /* LaunchScreen.storyboard */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF7B47862ABBFA2100D9C182 /* ViewController.swift in Sources */,
+				EF7B47BA2AC145E000D9C182 /* MainViewController.swift in Sources */,
+				EF7B47BE2AC14D8800D9C182 /* FeedCell.swift in Sources */,
+				EF7B47C02AC14F0700D9C182 /* FeedInfo.swift in Sources */,
 				EF7B47822ABBFA2100D9C182 /* AppDelegate.swift in Sources */,
 				EF7B47842ABBFA2100D9C182 /* SceneDelegate.swift in Sources */,
 			);
